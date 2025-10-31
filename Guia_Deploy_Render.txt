@@ -1,0 +1,9 @@
+Guia de Deploy Mentestech no Render
+
+1. Conecte o repositório GitHub.
+2. Crie Web Service → Python 3.11.
+3. Build Command: pip install -r requirements.txt
+4. Start Command: gunicorn passenger_wsgi:application
+5. Adicione Custom Domain (DNS HostGator).
+6. Teste endpoints /pix, /mercadopago, /paypal.
+7. Para produção, usar PostgreSQL em vez de SQLite.

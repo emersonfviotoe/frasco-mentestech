@@ -1,0 +1,5 @@
+Flask==2.3.4
+gunicorn==21.2.0
+mercadopago==2.0.0
+paypalrestsdk==1.14.0
+qrcode==7.4.2
